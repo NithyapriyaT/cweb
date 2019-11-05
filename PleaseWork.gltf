@@ -1,0 +1,271 @@
+{
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 3318508,
+            "max": [
+                21.24213218688965,
+                21.24213218688965,
+                21.24213218688965
+            ],
+            "min": [
+                -21.24213218688965,
+                -21.24213218688965,
+                -21.24213218688965
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 3318508,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5125,
+            "count": 19243506,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5126,
+            "count": 24,
+            "max": [
+                0.5,
+                0.5,
+                0.5
+            ],
+            "min": [
+                -0.5,
+                -0.5,
+                -0.5
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 4,
+            "componentType": 5126,
+            "count": 24,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 5,
+            "componentType": 5125,
+            "count": 36,
+            "type": "SCALAR"
+        }
+    ],
+    "asset": {
+        "generator": "Luxion KeyShot",
+        "version": "2.0"
+    },
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteLength": 39822096,
+            "byteOffset": 0,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 39822096,
+            "byteOffset": 39822096,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 76974024,
+            "byteOffset": 79644192
+        },
+        {
+            "buffer": 0,
+            "byteLength": 288,
+            "byteOffset": 156618216,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 288,
+            "byteOffset": 156618504,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 144,
+            "byteOffset": 156618792
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 156618936,
+            "uri": "PleaseWork resources/PleaseWork.bin"
+        }
+    ],
+    "cameras": [
+        {
+            "name": "active",
+            "orthographic": {
+                "xmag": 39.597999572753906,
+                "ymag": 39.597999572753906,
+                "zfar": 483.85906982421875,
+                "znear": 0.0010000000474974513
+            },
+            "type": "orthographic"
+        }
+    ],
+    "materials": [
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.729839026927948,
+                    0.729839026927948,
+                    0.729839026927948,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.2669439911842346,
+                    0.6399999856948853,
+                    0.014399999752640724,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 1
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "Golf Ball-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 1,
+                        "POSITION": 0
+                    },
+                    "indices": 2,
+                    "material": 0,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Cube-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 4,
+                        "POSITION": 3
+                    },
+                    "indices": 5,
+                    "material": 1,
+                    "mode": 4
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "camera": 0,
+            "matrix": [
+                0.8310918948424248,
+                8.557467623404591e-09,
+                -0.5561350646729539,
+                0,
+                -0.18435349005842513,
+                0.9434585192484306,
+                -0.27549905235692307,
+                0,
+                0.5246903896331787,
+                0.33149048686027527,
+                0.7841007709503174,
+                0,
+                92.47957611083984,
+                67.95491790771484,
+                138.42135620117188,
+                1
+            ],
+            "name": "active"
+        },
+        {
+            "mesh": 0,
+            "name": "Golf Ball"
+        },
+        {
+            "children": [
+                1
+            ],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                4.5000000170603016e-08,
+                -1,
+                0,
+                0,
+                1,
+                4.5000000170603016e-08,
+                0,
+                0,
+                23.516876865367287,
+                1.0140757190916224e-07,
+                1
+            ],
+            "name": "Golf Ball"
+        },
+        {
+            "mesh": 1,
+            "name": "Cube"
+        },
+        {
+            "children": [
+                3
+            ],
+            "matrix": [
+                404.29937270551204,
+                0,
+                0,
+                0,
+                0,
+                0.4999999999999996,
+                0,
+                0,
+                0,
+                0,
+                436.3364265310466,
+                0,
+                0,
+                1.9999999999999973,
+                0,
+                0.9999999999999987
+            ],
+            "name": "Cube"
+        },
+        {
+            "children": [
+                2,
+                4
+            ],
+            "name": "Default"
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                5
+            ]
+        }
+    ]
+}
